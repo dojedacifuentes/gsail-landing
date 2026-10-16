@@ -18,7 +18,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SITE = 'https://gsail.vercel.app/'; // dominio canónico (marcador, con / final)
+const SITE = 'https://gsail-alliance.vercel.app/'; // dominio canónico (marcador, con / final)
 
 const root = path.resolve(__dirname, '..');
 const C = JSON.parse(fs.readFileSync(path.join(root, 'content.json'), 'utf8'));

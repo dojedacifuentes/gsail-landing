@@ -28,7 +28,7 @@ Para sumar una institución asociada, añadir un objeto `{ "name": "…", "logo"
 
 ## Dominio canónico (antes del primer despliegue)
 
-El dominio es un marcador: `https://gsail.vercel.app/`. Cuando se fije el definitivo:
+El dominio actual (Vercel) es `https://gsail-alliance.vercel.app/`. Cuando se fije el definitivo:
 
 1. Cambiar la constante `SITE` en `tools/embed-content.js`.
 2. Ejecutar `node tools/embed-content.js`. Así se actualizan canonical, hreflang, `og:url`, `og:image`, el JSON-LD, `robots.txt` y `sitemap.xml`.

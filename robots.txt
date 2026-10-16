@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gsail.vercel.app/sitemap.xml
+Sitemap: https://gsail-alliance.vercel.app/sitemap.xml
