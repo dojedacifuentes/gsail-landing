@@ -1,0 +1,734 @@
+{
+  "_about": "Texto del sitio institucional permanente de GSAIL (ES/EN). Solo lo que usa el sitio: links, assets, es, en. Fuentes, notas de redacción e investigación de miembros: GSAIL/landing-docs/research.json (fuera del despliegue). Tras editar, ejecutar: node tools/embed-content.js",
+  "links": {
+    "youtube": "https://www.youtube.com/@FacultadyEscueladeDerechoPUCV",
+    "diat": "https://www.diatpucv.cl/",
+    "derechoPucv": "https://www.pucv.cl/uuaa/derecho-pucv",
+    "pucv": "https://www.pucv.cl/"
+  },
+  "assets": {
+    "_note": "Rutas relativas a landing/. Retratos: SOLO los aprobados (origen GSAIL/reel/videos/gsail-nueve-voces/assets/cap/faces/<id>.png, 400 px), en 400, 240 (-240) y 160 (-160) px. Logos *-blanco solo sobre fondo oscuro.",
+    "logoColor": "assets/logos/gsail-color.png",
+    "logoWhite": "assets/logos/gsail-blanco.png",
+    "portrait": "assets/expositores/{id}.jpg",
+    "flag": "assets/banderas/{iso}.svg",
+    "portraitWebp": "assets/expositores/{id}.webp",
+    "memberOrder": [
+      "maranhao",
+      "watanabe",
+      "moreira",
+      "florez",
+      "gamper",
+      "desousa",
+      "silva",
+      "cooper",
+      "kompella"
+    ],
+    "portraitSizes": [
+      160,
+      240,
+      400
+    ],
+    "og": "assets/og.jpg"
+  },
+  "es": {
+    "meta": {
+      "title": "GSAIL · Global South Alliance on AI and Law",
+      "description": "Alianza internacional para fortalecer la participación del Sur Global en la gobernanza de la IA, la investigación jurídica y el debate público.",
+      "ogAlt": "GSAIL · Global South Alliance on AI and Law. Pensar la IA y el derecho desde el Sur Global."
+    },
+    "lang": {
+      "code": "es",
+      "name": "Español",
+      "other": "en",
+      "otherName": "English",
+      "otherShort": "EN"
+    },
+    "skipLink": "Saltar al contenido",
+    "nav": [
+      {
+        "id": "alianza",
+        "label": "La alianza"
+      },
+      {
+        "id": "miembros",
+        "label": "Miembros"
+      },
+      {
+        "id": "lineas",
+        "label": "Líneas de trabajo"
+      },
+      {
+        "id": "red",
+        "label": "Red"
+      },
+      {
+        "id": "hitos",
+        "label": "Hitos"
+      },
+      {
+        "id": "instituciones",
+        "label": "Instituciones"
+      }
+    ],
+    "hero": {
+      "kicker": "Alianza internacional · IA y derecho",
+      "title": "Global South Alliance on AI and Law",
+      "subtitle": "Pensar la IA y el derecho desde el Sur Global.",
+      "subtitleEmphasis": "Sur Global",
+      "lead": "Una alianza internacional para fortalecer la participación del Sur Global en la gobernanza de la inteligencia artificial, la investigación jurídica y el debate público.",
+      "ctaPrimary": "Conoce la alianza",
+      "ctaPrimaryHref": "#alianza",
+      "ctaSecondary": "Líneas de trabajo",
+      "ctaSecondaryHref": "#lineas"
+    },
+    "about": {
+      "kicker": "La alianza",
+      "title": "Una mesa compartida para pensar la IA y el derecho.",
+      "lead": "GSAIL reúne a académicos e instituciones en diálogo con colegas de todo el mundo.",
+      "body": [
+        "Su propósito es fortalecer la participación del Sur Global en la gobernanza de la inteligencia artificial, la investigación jurídica y el debate público. Por eso su mesa es deliberadamente compartida entre Sur y Norte: las preguntas y realidades del Sur Global se ponen en conversación con voces de otras regiones, para que la discusión sobre la IA y el derecho sea efectivamente global.",
+        "El Programa DIAT y la Facultad de Derecho de la Pontificia Universidad Católica de Valparaíso (PUCV), Chile, organizaron el lanzamiento público de la alianza, el 16 de octubre de 2026 en Santiago."
+      ],
+      "quote": {
+        "text": "La gobernanza de la IA no puede ser verdaderamente global si no refleja las realidades de las distintas regiones.",
+        "attribution": "Global South Alliance on AI and Law"
+      }
+    },
+    "members": {
+      "kicker": "Miembros",
+      "title": "Miembros de la alianza",
+      "lead": "Los miembros que se presentan aquí tienen afiliación en América, Europa y Asia: voces del Sur Global en diálogo con colegas del Norte.",
+      "openLabel": "Ver reseña",
+      "linkedinLabel": "Ver perfil en LinkedIn",
+      "linkedinAvailable": "Perfil de LinkedIn disponible",
+      "closeLabel": "Cerrar",
+      "dialogKicker": "Miembro de GSAIL",
+      "countryLabel": "País",
+      "items": [
+        {
+          "id": "maranhao",
+          "name": "Juliano Maranhão",
+          "role": "Director Ejecutivo",
+          "institution": "Universidad de São Paulo",
+          "country": "Brasil",
+          "iso": "br",
+          "bio": "Juliano Maranhão es profesor livre-docente de la Facultad de Derecho de la Universidad de São Paulo (USP). Preside la Asociación Lawgorithm de Investigación en Inteligencia Artificial y Derecho y es investigador asociado del Centro de Inteligencia Artificial (C4AI) de la USP. Fue presidente del comité de programa de ICAIL 2025, la Conferencia Internacional sobre Inteligencia Artificial y Derecho, e integró en 2022 la comisión de juristas del Senado de Brasil que elaboró una propuesta de marco regulatorio para la IA.",
+          "linkedin": "https://www.linkedin.com/in/juliano-maranh%C3%A3o-b9ab0140/"
+        },
+        {
+          "id": "watanabe",
+          "name": "Shota Watanabe",
+          "role": "Representante de Japón en el Comité de Política Digital de la OCDE",
+          "institution": "Nomura Research Institute",
+          "country": "Japón",
+          "iso": "jp",
+          "bio": "Shota Watanabe forma parte del Nomura Research Institute (NRI). Se especializa en políticas internacionales de datos (incluidos los datos personales) y de comercio, y ha participado en negociaciones internacionales y en los debates de organismos como la OCDE. Es autor de un documento de discusión del RIETI (2019) sobre las restricciones a la transferencia transfronteriza de datos por motivos de acceso gubernamental y coautor de un estudio del ERIA (2025) sobre la gobernanza de datos en la ASEAN.",
+          "linkedin": ""
+        },
+        {
+          "id": "moreira",
+          "name": "André Moreira",
+          "role": "Consultor internacional",
+          "institution": "Universidad de Lisboa",
+          "country": "Portugal",
+          "iso": "pt",
+          "bio": "André Moreira es consultor internacional vinculado a la Universidad de Lisboa (Portugal).",
+          "linkedin": ""
+        },
+        {
+          "id": "florez",
+          "name": "Germán Flórez",
+          "role": "Presidente de Alt+Co, Asociación Colombiana de Legal Tech",
+          "institution": "Universidad Sergio Arboleda",
+          "country": "Colombia",
+          "iso": "co",
+          "bio": "Germán Flórez es presidente de Alt+Co, Asociación Colombiana de Legal Tech, y profesor de la Universidad Sergio Arboleda, donde ha dirigido la Maestría en Innovación en Derecho Digital y Legal Tech. Es abogado especializado en propiedad intelectual y derecho de las tecnologías de la información, con un LLM en Propiedad Intelectual de Queen Mary University of London (2011).",
+          "linkedin": ""
+        },
+        {
+          "id": "gamper",
+          "name": "Florian Gamper",
+          "role": "Research Affiliate, Centre for Digital Law",
+          "institution": "Singapore Management University",
+          "country": "Singapur",
+          "iso": "sg",
+          "bio": "Florian Gamper es Research Affiliate del Centre for Digital Law de la Singapore Management University. Es doctor por la Facultad de Derecho de la Universidad de Maastricht y tiene un MSc y un BSc en Economía y Filosofía por la London School of Economics. Investiga sobre inteligencia artificial, contratos, teoría del derecho y regulación financiera.",
+          "linkedin": "https://www.linkedin.com/in/fgamper/"
+        },
+        {
+          "id": "desousa",
+          "name": "Beatriz de Sousa",
+          "role": "Investigadora de la Asociación de Investigación Lawgorithm",
+          "institution": "Universidad de São Paulo",
+          "country": "Brasil",
+          "iso": "br",
+          "bio": "Beatriz de Sousa es investigadora de la Asociación de Investigación Lawgorithm, vinculada a la Universidad de São Paulo. Es abogada en el despacho Maranhão & Menezes, donde trabaja en protección de datos, propiedad intelectual y derecho de la competencia. Es licenciada en Derecho por la Facultad de Derecho de la Universidad de São Paulo, con doble titulación de la Université Jean Monnet de Saint-Étienne (Francia).",
+          "linkedin": "https://www.linkedin.com/in/beatriz-de-sousa-60791017a/"
+        },
+        {
+          "id": "silva",
+          "name": "Adolfo Silva",
+          "role": "Director del Programa DIAT",
+          "institution": "Pontificia Universidad Católica de Valparaíso",
+          "country": "Chile",
+          "iso": "cl",
+          "bio": "Adolfo Silva es director del Programa DIAT (Derecho, Inteligencia Artificial y Tecnología) de la Pontificia Universidad Católica de Valparaíso (PUCV). Es académico de la Facultad de Derecho de la PUCV y dirige también el Laboratorio de Innovación Legal (LMIL PUCV) de la Escuela de Derecho. Fue panelista en la conferencia internacional «Artificial Intelligence: The Race for Regulation», en California Western School of Law (San Diego), en el panel dedicado a los derechos fundamentales y los desafíos de las herramientas de IA.",
+          "linkedin": "https://www.linkedin.com/in/adolfo-silva-walbaum-b9676a39/"
+        },
+        {
+          "id": "cooper",
+          "name": "James Cooper",
+          "role": "Profesor de Derecho",
+          "institution": "California Western School of Law",
+          "country": "Estados Unidos",
+          "iso": "us",
+          "bio": "James Cooper es profesor de Derecho en California Western School of Law (San Diego, Estados Unidos), donde imparte cursos como Derecho Internacional, Derecho Comparado y «Artificial Intelligence and the Law». Durante más de dos décadas dirigió Proyecto ACCESO, un proyecto de transferencia de tecnología judicial en América Latina, y su trabajo reciente se centra en la regulación jurídica de tecnologías emergentes como la inteligencia artificial, el blockchain y el metaverso. Con Kashyap Kompella es coautor de libros sobre inteligencia artificial para abogados, publicados por West Academic.",
+          "linkedin": ""
+        },
+        {
+          "id": "kompella",
+          "name": "Kashyap Kompella",
+          "role": "Fundador y CEO · Investigador en IA",
+          "institution": "RPA2AI Research",
+          "country": "India",
+          "iso": "in",
+          "bio": "Kashyap Kompella es fundador y CEO de RPA2AI Research, firma que creó en 2018 y desde la que asesora en estrategia, inversión, gobernanza y riesgo de la inteligencia artificial. Es analista de la industria de la IA, autor y educador, con más de 25 años de trayectoria en desarrollo de productos, consultoría de gestión y análisis de la industria tecnológica. Es coautor, con James M. Cooper, de «A Short & Happy Guide to Artificial Intelligence for Lawyers» (2024) y «A Short & Happy Guide to AI Governance and Regulation» (2025).",
+          "linkedin": "https://www.linkedin.com/in/kashyapkompella/"
+        }
+      ]
+    },
+    "pillars": {
+      "kicker": "Líneas de trabajo",
+      "title": "Cuatro líneas de trabajo",
+      "items": [
+        {
+          "n": "01",
+          "title": "Investigación y producción de conocimiento",
+          "text": "Investigación jurídica sobre la inteligencia artificial y su gobernanza, desde las realidades y preguntas del Sur Global."
+        },
+        {
+          "n": "02",
+          "title": "Intercambio académico y eventos",
+          "text": "Espacios de encuentro y diálogo entre académicos e instituciones de distintas regiones."
+        },
+        {
+          "n": "03",
+          "title": "Publicaciones · Global South Journal on AI & Law",
+          "text": "Una línea de publicación de la alianza para difundir el trabajo sobre IA y derecho pensado desde el Sur Global."
+        },
+        {
+          "n": "04",
+          "title": "Cooperación institucional y formación",
+          "text": "Colaboración entre instituciones y formación en los cruces entre la inteligencia artificial y el derecho."
+        }
+      ]
+    },
+    "network": {
+      "kicker": "Red",
+      "title": "Sur Global, en diálogo con el mundo",
+      "lead": "Los miembros presentados en este sitio tienen afiliación en ocho países de América, Europa y Asia: una conversación que nace en el Sur Global e incluye deliberadamente a colegas del Norte.",
+      "note": "Países según la afiliación institucional de cada miembro presentado en este sitio.",
+      "countries": [
+        {
+          "iso": "br",
+          "name": "Brasil",
+          "continent": "América"
+        },
+        {
+          "iso": "jp",
+          "name": "Japón",
+          "continent": "Asia"
+        },
+        {
+          "iso": "pt",
+          "name": "Portugal",
+          "continent": "Europa"
+        },
+        {
+          "iso": "co",
+          "name": "Colombia",
+          "continent": "América"
+        },
+        {
+          "iso": "sg",
+          "name": "Singapur",
+          "continent": "Asia"
+        },
+        {
+          "iso": "cl",
+          "name": "Chile",
+          "continent": "América"
+        },
+        {
+          "iso": "us",
+          "name": "Estados Unidos",
+          "continent": "América"
+        },
+        {
+          "iso": "in",
+          "name": "India",
+          "continent": "Asia"
+        }
+      ],
+      "continentsTitle": "Países representados en esta sección"
+    },
+    "milestones": {
+      "kicker": "Hitos",
+      "title": "Hitos de la alianza",
+      "items": [
+        {
+          "n": "01",
+          "tag": "Primer hito",
+          "date": "16 de octubre de 2026",
+          "isoDate": "2026-10-16",
+          "title": "Lanzamiento de GSAIL",
+          "place": "Edificio PUCV Santiago · Antonio Bellet 314, Providencia, Santiago de Chile",
+          "text": "Presentación pública de la Global South Alliance on AI and Law, organizada por el Programa DIAT y la Facultad de Derecho PUCV, con el apoyo de la Dirección General de Asuntos Internacionales PUCV. Nueve voces de América, Europa y Asia en una misma conversación, con transmisión por el canal de YouTube de la Facultad y Escuela de Derecho PUCV.",
+          "links": [
+            {
+              "label": "Canal de YouTube · Facultad y Escuela de Derecho PUCV",
+              "url": "https://www.youtube.com/@FacultadyEscueladeDerechoPUCV"
+            }
+          ],
+          "speakersTitle": "Voces del lanzamiento",
+          "speakers": [
+            "maranhao",
+            "watanabe",
+            "moreira",
+            "florez",
+            "gamper",
+            "desousa",
+            "silva",
+            "cooper",
+            "kompella"
+          ],
+          "speakersHint": "Cada retrato abre la ficha del miembro.",
+          "dayMonth": "16 de octubre"
+        }
+      ],
+      "speakerAria": "Ver ficha de",
+      "linkIcon": "youtube"
+    },
+    "organizers": {
+      "kicker": "Instituciones",
+      "title": "Instituciones que impulsan la alianza",
+      "organizedBy": {
+        "label": "Organizan",
+        "items": [
+          {
+            "name": "Programa DIAT · PUCV",
+            "logo": "assets/logos/diat-blanco.png",
+            "url": "https://www.diatpucv.cl/"
+          },
+          {
+            "name": "Facultad de Derecho PUCV",
+            "logo": "assets/logos/derecho-pucv-blanco.png",
+            "url": "https://www.pucv.cl/uuaa/derecho-pucv"
+          }
+        ]
+      },
+      "associated": {
+        "label": "Instituciones asociadas",
+        "items": [
+          {
+            "name": "Legal Management Innovation Lab (LMI Lab) · PUCV",
+            "logo": "assets/logos/lmilab-blanco.png"
+          }
+        ]
+      },
+      "support": {
+        "label": "Con el apoyo de",
+        "items": [
+          {
+            "name": "Dirección General de Asuntos Internacionales PUCV",
+            "logo": "assets/logos/dgai-blanco.png"
+          },
+          {
+            "name": "PUCV 100 años",
+            "logo": "assets/logos/centenario-blanco.png"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "brand": "Global South Alliance on AI and Law",
+      "short": "GSAIL",
+      "tagline": "Pensar la IA y el derecho desde el Sur Global.",
+      "about": "El Programa DIAT y la Facultad de Derecho de la Pontificia Universidad Católica de Valparaíso (PUCV), Chile, organizaron el lanzamiento público de GSAIL el 16 de octubre de 2026.",
+      "linksLabel": "Enlaces",
+      "youtubeLabel": "YouTube · Facultad y Escuela de Derecho PUCV",
+      "hashtags": "#GSAIL #IAyDerecho #AIandLaw #GlobalSouth",
+      "backToTop": "Volver arriba",
+      "copyright": "© 2026 GSAIL"
+    },
+    "ui": {
+      "menu": "Menú",
+      "menuOpen": "Abrir menú",
+      "menuClose": "Cerrar menú",
+      "mainNav": "Navegación principal",
+      "langGroup": "Idioma",
+      "portraitOf": "Retrato de",
+      "prev": "Miembro anterior",
+      "next": "Miembro siguiente",
+      "home": "GSAIL, inicio",
+      "newTab": "(se abre en una pestaña nueva)",
+      "placeLabel": "Lugar",
+      "dateLabel": "Fecha",
+      "linksLabel": "Enlaces",
+      "externalSite": "Sitio web de",
+      "dialogKeys": "Con el foco en la ficha, las flechas izquierda y derecha pasan de un miembro a otro."
+    }
+  },
+  "en": {
+    "meta": {
+      "title": "GSAIL · Global South Alliance on AI and Law",
+      "description": "An international alliance to strengthen Global South participation in AI governance, legal scholarship, research and public debate.",
+      "ogAlt": "GSAIL · Global South Alliance on AI and Law. Thinking about AI and law from the Global South."
+    },
+    "lang": {
+      "code": "en",
+      "name": "English",
+      "other": "es",
+      "otherName": "Español",
+      "otherShort": "ES"
+    },
+    "skipLink": "Skip to content",
+    "nav": [
+      {
+        "id": "alianza",
+        "label": "The alliance"
+      },
+      {
+        "id": "miembros",
+        "label": "Members"
+      },
+      {
+        "id": "lineas",
+        "label": "Areas of work"
+      },
+      {
+        "id": "red",
+        "label": "Network"
+      },
+      {
+        "id": "hitos",
+        "label": "Milestones"
+      },
+      {
+        "id": "instituciones",
+        "label": "Institutions"
+      }
+    ],
+    "hero": {
+      "kicker": "An international alliance · AI and law",
+      "title": "Global South Alliance on AI and Law",
+      "subtitle": "Thinking about AI and law from the Global South.",
+      "subtitleEmphasis": "Global South",
+      "lead": "An international alliance to strengthen Global South participation in AI governance, legal scholarship, research and public debate.",
+      "ctaPrimary": "About the alliance",
+      "ctaPrimaryHref": "#alianza",
+      "ctaSecondary": "Areas of work",
+      "ctaSecondaryHref": "#lineas"
+    },
+    "about": {
+      "kicker": "The alliance",
+      "title": "A shared table for thinking about AI and law.",
+      "lead": "GSAIL brings together scholars and institutions in conversation with colleagues around the world.",
+      "body": [
+        "Its purpose is to strengthen Global South participation in AI governance, legal scholarship, research and public debate. That is why its table is deliberately shared between South and North: the questions and realities of the Global South are placed in dialogue with voices from other regions, so that the debate on AI and law can be genuinely global.",
+        "The DIAT Program and the Faculty of Law at Pontificia Universidad Católica de Valparaíso (PUCV), Chile, organized the public launch of the alliance in Santiago on October 16, 2026."
+      ],
+      "quote": {
+        "text": "AI governance cannot be truly global if it does not reflect the realities of different regions.",
+        "attribution": "Global South Alliance on AI and Law"
+      }
+    },
+    "members": {
+      "kicker": "Members",
+      "title": "Members of the alliance",
+      "lead": "The members presented here are affiliated with institutions in the Americas, Europe and Asia: voices from the Global South in dialogue with colleagues from the North.",
+      "openLabel": "Read profile",
+      "linkedinLabel": "View LinkedIn profile",
+      "linkedinAvailable": "LinkedIn profile available",
+      "closeLabel": "Close",
+      "dialogKicker": "GSAIL member",
+      "countryLabel": "Country",
+      "items": [
+        {
+          "id": "maranhao",
+          "name": "Juliano Maranhão",
+          "role": "Executive Director",
+          "institution": "University of São Paulo",
+          "country": "Brazil",
+          "iso": "br",
+          "bio": "Juliano Maranhão is a livre-docente professor at the Faculty of Law of the University of São Paulo (USP). He is president of the Lawgorithm Research Association on Artificial Intelligence and Law and an associate researcher at USP's Center for Artificial Intelligence (C4AI). He was Program Chair of ICAIL 2025, the International Conference on Artificial Intelligence and Law, and in 2022 sat on the Brazilian Senate's commission of jurists that drafted a proposed regulatory framework for AI.",
+          "linkedin": "https://www.linkedin.com/in/juliano-maranh%C3%A3o-b9ab0140/"
+        },
+        {
+          "id": "watanabe",
+          "name": "Shota Watanabe",
+          "role": "Japan's representative on the OECD Digital Policy Committee",
+          "institution": "Nomura Research Institute",
+          "country": "Japan",
+          "iso": "jp",
+          "bio": "Shota Watanabe works at Nomura Research Institute (NRI). He specializes in international data policy (including personal data) and trade policy, and has taken part in international negotiations and in discussions at bodies such as the OECD. He wrote a 2019 RIETI discussion paper on cross-border data transfer restrictions based on government access and co-authored a 2025 ERIA study on data governance in ASEAN.",
+          "linkedin": ""
+        },
+        {
+          "id": "moreira",
+          "name": "André Moreira",
+          "role": "International consultant",
+          "institution": "University of Lisbon",
+          "country": "Portugal",
+          "iso": "pt",
+          "bio": "André Moreira is an international consultant affiliated with the University of Lisbon (Portugal).",
+          "linkedin": ""
+        },
+        {
+          "id": "florez",
+          "name": "Germán Flórez",
+          "role": "President, Alt+Co – Colombian Legal Tech Association",
+          "institution": "Sergio Arboleda University",
+          "country": "Colombia",
+          "iso": "co",
+          "bio": "Germán Flórez is President of Alt+Co, the Colombian Legal Tech Association, and a professor at Sergio Arboleda University, where he has directed the Master's program in Innovation in Digital Law and Legal Tech. He is a lawyer specializing in intellectual property and information technology law, and holds an LLM in Intellectual Property Law from Queen Mary University of London (2011).",
+          "linkedin": ""
+        },
+        {
+          "id": "gamper",
+          "name": "Florian Gamper",
+          "role": "Research Affiliate, Centre for Digital Law",
+          "institution": "Singapore Management University",
+          "country": "Singapore",
+          "iso": "sg",
+          "bio": "Florian Gamper is a Research Affiliate at the Centre for Digital Law, Singapore Management University. He holds a PhD from the Faculty of Law at Maastricht University and an MSc and BSc in Economics and Philosophy from the London School of Economics. His research covers artificial intelligence, contracts, jurisprudence and financial regulation.",
+          "linkedin": "https://www.linkedin.com/in/fgamper/"
+        },
+        {
+          "id": "desousa",
+          "name": "Beatriz de Sousa",
+          "role": "Researcher, Lawgorithm Research Association",
+          "institution": "University of São Paulo",
+          "country": "Brazil",
+          "iso": "br",
+          "bio": "Beatriz de Sousa is a researcher at the Lawgorithm Research Association, linked to the University of São Paulo. She is a lawyer at Maranhão & Menezes, working on data protection, intellectual property and competition law. She holds a law degree from the University of São Paulo Faculty of Law, with a dual degree from Université Jean Monnet de Saint-Étienne (France).",
+          "linkedin": "https://www.linkedin.com/in/beatriz-de-sousa-60791017a/"
+        },
+        {
+          "id": "silva",
+          "name": "Adolfo Silva",
+          "role": "Director, DIAT Program",
+          "institution": "Pontificia Universidad Católica de Valparaíso",
+          "country": "Chile",
+          "iso": "cl",
+          "bio": "Adolfo Silva is Director of the DIAT Program (Law, Artificial Intelligence and Technology) at Pontificia Universidad Católica de Valparaíso (PUCV). He is a faculty member of the PUCV Faculty of Law and also directs the School of Law's Legal Innovation Lab (LMIL PUCV). He was a panelist at the international conference “Artificial Intelligence: The Race for Regulation” at California Western School of Law in San Diego, on the panel devoted to fundamental rights and the challenges of AI tools.",
+          "linkedin": "https://www.linkedin.com/in/adolfo-silva-walbaum-b9676a39/"
+        },
+        {
+          "id": "cooper",
+          "name": "James Cooper",
+          "role": "Professor of Law",
+          "institution": "California Western School of Law",
+          "country": "United States",
+          "iso": "us",
+          "bio": "James Cooper is Professor of Law at California Western School of Law in San Diego, United States, where his courses include International Law, Comparative Law and Artificial Intelligence and the Law. For more than two decades he directed Proyecto ACCESO, a judicial technology transfer project in Latin America, and his recent work focuses on the legal regulation of emerging technologies such as artificial intelligence, blockchain and the metaverse. With Kashyap Kompella, he has co-authored books on artificial intelligence for lawyers, published by West Academic.",
+          "linkedin": ""
+        },
+        {
+          "id": "kompella",
+          "name": "Kashyap Kompella",
+          "role": "Founder & CEO · AI researcher",
+          "institution": "RPA2AI Research",
+          "country": "India",
+          "iso": "in",
+          "bio": "Kashyap Kompella is the founder and CEO of RPA2AI Research, the firm he established in 2018, where he advises on AI strategy, investment, governance and risk. He is an AI industry analyst, author and educator with more than 25 years of experience across product development, management consulting and technology industry analysis. With James M. Cooper, he co-authored “A Short & Happy Guide to Artificial Intelligence for Lawyers” (2024) and “A Short & Happy Guide to AI Governance and Regulation” (2025).",
+          "linkedin": "https://www.linkedin.com/in/kashyapkompella/"
+        }
+      ]
+    },
+    "pillars": {
+      "kicker": "Areas of work",
+      "title": "Four areas of work",
+      "items": [
+        {
+          "n": "01",
+          "title": "Research and knowledge production",
+          "text": "Legal research on artificial intelligence and its governance, grounded in the realities and questions of the Global South."
+        },
+        {
+          "n": "02",
+          "title": "Academic exchange and events",
+          "text": "Opportunities for scholars and institutions from different regions to meet and engage in dialogue."
+        },
+        {
+          "n": "03",
+          "title": "Publications · Global South Journal on AI & Law",
+          "text": "A publication line of the alliance, devoted to work on AI and law conceived from the Global South."
+        },
+        {
+          "n": "04",
+          "title": "Institutional cooperation and capacity-building",
+          "text": "Collaboration between institutions and capacity-building at the intersection of artificial intelligence and law."
+        }
+      ]
+    },
+    "network": {
+      "kicker": "Network",
+      "title": "The Global South, in dialogue with the world",
+      "lead": "The members presented on this site are affiliated with institutions in eight countries across the Americas, Europe and Asia: a conversation rooted in the Global South that deliberately includes colleagues from the North.",
+      "note": "Countries reflect the institutional affiliation of each member presented on this site.",
+      "countries": [
+        {
+          "iso": "br",
+          "name": "Brazil",
+          "continent": "Americas"
+        },
+        {
+          "iso": "jp",
+          "name": "Japan",
+          "continent": "Asia"
+        },
+        {
+          "iso": "pt",
+          "name": "Portugal",
+          "continent": "Europe"
+        },
+        {
+          "iso": "co",
+          "name": "Colombia",
+          "continent": "Americas"
+        },
+        {
+          "iso": "sg",
+          "name": "Singapore",
+          "continent": "Asia"
+        },
+        {
+          "iso": "cl",
+          "name": "Chile",
+          "continent": "Americas"
+        },
+        {
+          "iso": "us",
+          "name": "United States",
+          "continent": "Americas"
+        },
+        {
+          "iso": "in",
+          "name": "India",
+          "continent": "Asia"
+        }
+      ],
+      "continentsTitle": "Countries represented in this section"
+    },
+    "milestones": {
+      "kicker": "Milestones",
+      "title": "Milestones",
+      "items": [
+        {
+          "n": "01",
+          "tag": "First milestone",
+          "date": "October 16, 2026",
+          "isoDate": "2026-10-16",
+          "title": "Launch of GSAIL",
+          "place": "PUCV Santiago Building · Antonio Bellet 314, Providencia, Santiago, Chile",
+          "text": "Public launch of the Global South Alliance on AI and Law, hosted by the DIAT Program and the Faculty of Law at Pontificia Universidad Católica de Valparaíso, with the support of PUCV's Dirección General de Asuntos Internacionales. Nine voices from three continents in one conversation, streamed on the YouTube channel of the PUCV Faculty and School of Law.",
+          "links": [
+            {
+              "label": "YouTube channel · PUCV Faculty and School of Law",
+              "url": "https://www.youtube.com/@FacultadyEscueladeDerechoPUCV"
+            }
+          ],
+          "speakersTitle": "Voices of the launch",
+          "speakers": [
+            "maranhao",
+            "watanabe",
+            "moreira",
+            "florez",
+            "gamper",
+            "desousa",
+            "silva",
+            "cooper",
+            "kompella"
+          ],
+          "speakersHint": "Each portrait opens the member's profile.",
+          "dayMonth": "October 16"
+        }
+      ],
+      "speakerAria": "View profile of",
+      "linkIcon": "youtube"
+    },
+    "organizers": {
+      "kicker": "Institutions",
+      "title": "Institutions behind the alliance",
+      "organizedBy": {
+        "label": "Organized by",
+        "items": [
+          {
+            "name": "DIAT Program · PUCV",
+            "logo": "assets/logos/diat-blanco.png",
+            "url": "https://www.diatpucv.cl/"
+          },
+          {
+            "name": "Faculty of Law, PUCV",
+            "logo": "assets/logos/derecho-pucv-blanco.png",
+            "url": "https://www.pucv.cl/uuaa/derecho-pucv"
+          }
+        ]
+      },
+      "associated": {
+        "label": "Associated institutions",
+        "items": [
+          {
+            "name": "Legal Management Innovation Lab (LMI Lab) · PUCV",
+            "logo": "assets/logos/lmilab-blanco.png"
+          }
+        ]
+      },
+      "support": {
+        "label": "With the support of",
+        "items": [
+          {
+            "name": "Dirección General de Asuntos Internacionales PUCV",
+            "logo": "assets/logos/dgai-blanco.png",
+            "nameLang": "es"
+          },
+          {
+            "name": "PUCV 100 años",
+            "logo": "assets/logos/centenario-blanco.png",
+            "nameLang": "es"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "brand": "Global South Alliance on AI and Law",
+      "short": "GSAIL",
+      "tagline": "Thinking about AI and law from the Global South.",
+      "about": "The DIAT Program and the Faculty of Law at Pontificia Universidad Católica de Valparaíso (PUCV), Chile, organized the public launch of GSAIL on October 16, 2026.",
+      "linksLabel": "Links",
+      "youtubeLabel": "YouTube · PUCV Faculty and School of Law",
+      "hashtags": "#GSAIL #AIandLaw #GlobalSouth #AIGovernance",
+      "backToTop": "Back to top",
+      "copyright": "© 2026 GSAIL"
+    },
+    "ui": {
+      "menu": "Menu",
+      "menuOpen": "Open menu",
+      "menuClose": "Close menu",
+      "mainNav": "Main navigation",
+      "langGroup": "Language",
+      "portraitOf": "Portrait of",
+      "prev": "Previous member",
+      "next": "Next member",
+      "home": "GSAIL, home",
+      "newTab": "(opens in a new tab)",
+      "placeLabel": "Venue",
+      "dateLabel": "Date",
+      "linksLabel": "Links",
+      "externalSite": "Website of",
+      "dialogKeys": "With focus in the profile, the left and right arrow keys move between members."
+    }
+  }
+}
